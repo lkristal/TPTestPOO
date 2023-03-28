@@ -21,15 +21,25 @@ do
 
 void IngresarAlumno()
 {
-    string nom = Funciones.IngresarTexto("Ingrese Nombre");
+    string nom = Funciones.IngresarTexto("Ingrese Nombre ");
     int dni = Funciones.IngresarEntero("Ingrese DNI ");
-    string cur = Funciones.IngresarTexto("Ingrese Curso");
-    DateTime fn = Funciones.IngresarFecha("Ingrese Fecha de Nacimiento");
+    string cur = Funciones.IngresarTexto("Ingrese Curso ");
+    DateTime fn = Funciones.IngresarFecha("Ingrese Fecha de Nacimiento (aaaa/mm/dd) ");
+    
+    Alumnx UnAlum =  new Alumnx(nom,dni,cur,fn);
+    //Alumnx UnAlumn = new Alumnx();
+    //UnAlumn.Curso = cur;
+    //UnAlumn.Nombre = nom;
+    //UnAlumn.FechaNacimiento = fn;
+    //UnAlumn.DNI =  dni;
 
+    ListaAlumnxs.Add(UnAlum);
 }
 
 void VerLista(){
-    
-
+foreach(Alumnx item in ListaAlumnxs){
+    Console.WriteLine( " Nombre: " +item.Nombre + " Curso: " + item.Curso + " Edad: " + item.MiEdad());
+}
+Console.ReadLine();
 }
 

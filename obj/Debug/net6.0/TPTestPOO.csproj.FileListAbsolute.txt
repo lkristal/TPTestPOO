@@ -1,0 +1,15 @@
+C:\Users\lkris\TPTestPOO\bin\Debug\net6.0\TPTestPOO.exe
+C:\Users\lkris\TPTestPOO\bin\Debug\net6.0\TPTestPOO.deps.json
+C:\Users\lkris\TPTestPOO\bin\Debug\net6.0\TPTestPOO.runtimeconfig.json
+C:\Users\lkris\TPTestPOO\bin\Debug\net6.0\TPTestPOO.dll
+C:\Users\lkris\TPTestPOO\bin\Debug\net6.0\TPTestPOO.pdb
+C:\Users\lkris\TPTestPOO\obj\Debug\net6.0\TPTestPOO.csproj.AssemblyReference.cache
+C:\Users\lkris\TPTestPOO\obj\Debug\net6.0\TPTestPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lkris\TPTestPOO\obj\Debug\net6.0\TPTestPOO.AssemblyInfoInputs.cache
+C:\Users\lkris\TPTestPOO\obj\Debug\net6.0\TPTestPOO.AssemblyInfo.cs
+C:\Users\lkris\TPTestPOO\obj\Debug\net6.0\TPTestPOO.csproj.CoreCompileInputs.cache
+C:\Users\lkris\TPTestPOO\obj\Debug\net6.0\TPTestPOO.dll
+C:\Users\lkris\TPTestPOO\obj\Debug\net6.0\refint\TPTestPOO.dll
+C:\Users\lkris\TPTestPOO\obj\Debug\net6.0\TPTestPOO.pdb
+C:\Users\lkris\TPTestPOO\obj\Debug\net6.0\TPTestPOO.genruntimeconfig.cache
+C:\Users\lkris\TPTestPOO\obj\Debug\net6.0\ref\TPTestPOO.dll
