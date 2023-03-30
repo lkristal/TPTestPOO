@@ -27,6 +27,13 @@ void IngresarAlumno()
     DateTime fn = Funciones.IngresarFecha("Ingrese Fecha de Nacimiento (aaaa/mm/dd) ");
     
     Alumnx UnAlum =  new Alumnx(nom,dni,cur,fn);
+     nom = Funciones.IngresarTexto("Ingrese Nombre ");
+     dni = Funciones.IngresarEntero("Ingrese DNI ");
+     cur = Funciones.IngresarTexto("Ingrese Curso ");
+     fn = Funciones.IngresarFecha("Ingrese Fecha de Nacimiento (aaaa/mm/dd) ");
+    
+    Alumnx UnAlum2 =  new Alumnx(nom,dni,cur,fn);
+    if (UnAlum.MiEdad() > UnAlum2.MiEdad())
     //Alumnx UnAlumn = new Alumnx();
     //UnAlumn.Curso = cur;
     //UnAlumn.Nombre = nom;

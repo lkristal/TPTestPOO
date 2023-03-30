@@ -2,11 +2,11 @@ using System;
 class Alumnx
 {
     // Definicion de Propiedades
-    public string Nombre;
-    public int DNI;
-    public string Curso;
-    public DateTime FechaNacimiento;
-    private int Edad;
+    public string Nombre{get;set;}
+    public int DNI{get;private set;}
+    public string Curso{get;set;}
+    public DateTime FechaNacimiento{get;set;}
+    private int Edad{get;set;}
 // Constructor
 public Alumnx()
 {
